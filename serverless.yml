@@ -1,0 +1,19 @@
+
+
+service: Python-serverless
+
+provider:
+  name: aws
+  runtime: python2.7
+  stage: prod
+  region: us-west-2
+  profile: cuiqu
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: post
+          cors: true
+          integration: lambda
