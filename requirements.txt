@@ -68,7 +68,7 @@ scipy==0.13.0b1
 semantic-version==2.5.0
 six==1.4.1
 tabulate==0.7.5
-urllib3==1.19.1
+urllib3==1.24.2
 wcwidth==0.1.7
 websocket-client==0.40.0
 xattr==0.6.4
