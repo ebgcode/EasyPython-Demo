@@ -73,6 +73,6 @@ wcwidth==0.1.7
 websocket-client==0.40.0
 xattr==0.6.4
 zope.interface==4.1.1
-bottle==0.12.11
+bottle==0.12.20
 demjson==2.2.4
 
